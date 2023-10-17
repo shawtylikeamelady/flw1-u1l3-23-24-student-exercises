@@ -1,9 +1,17 @@
 // Welcome to the magical zoo! Your task is to create and manage a list of magical creatures. Let's have some fun!
 
 // 1. Declare a variable named 'creatureName' and assign it a magical creature's name as a string.
+let creatureName = "a floating dead gojo";
+let creatureDescription = "it can fly, its dead, it only has one half of a body, its truly a phanomnon"
+
+let isFriendly = true;
+let visitorAge = Math.floor(Math.random() * 60) + 1 ;
+console.log(visitorAge)
 
 
+let canVisit = visitorAge > 15 ; 
 
+console.log ("this " + creatureName + "is" + creatureDescription + " and its" +  isFriendly + "that it is friendly, if you are" + visitorAge)
 // 2. Declare a variable named 'creatureDescription' and describe its magical properties as a string.
 
 
